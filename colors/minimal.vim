@@ -4,9 +4,8 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "minimal"
-hi Normal		guifg=#424242	ctermfg=black guibg=#F4F3F1
+hi Normal		guifg=#424242	ctermfg=black guibg=#fffae6
 hi NonText		guifg=#424242	ctermfg=black
-hi comment		guifg=darkgray		ctermfg=darkgray	gui=italic
 hi constant		guifg=#424242		ctermfg=black
 hi string guifg=darkgray ctermfg=darkgray
 hi identifier	guifg=#424242		ctermfg=black
@@ -48,4 +47,13 @@ hi Folded		guifg=#424242		guifg=#424242		ctermfg=black		ctermfg=black
 hi FoldColumn	guifg=#424242		guifg=#424242	ctermfg=black		ctermfg=black
 hi cIf0			guifg=#424242			ctermfg=black
 
+hi SignColumn guifg=white guibg=NONE
+hi String guifg=green
+hi elixirAtom gui=bold
+hi NonText    guibg=NONE guifg=#eeeeee
 
+hi Comment		guifg=#415581 ctermfg=darkgray	gui=bold
+hi elixirVariable gui=italic
+hi elixirInclude gui=underline
+hi elixirNumber guifg=blue
+hi matchparen guibg=green guifg=white
