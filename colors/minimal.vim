@@ -57,3 +57,5 @@ hi elixirVariable gui=italic
 hi elixirInclude gui=underline
 hi elixirNumber guifg=blue
 hi matchparen guibg=green guifg=white
+hi linenr guifg=darkgray
+hi CocHighlightText guibg=#fffbcd
